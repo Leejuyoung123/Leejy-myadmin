@@ -1,0 +1,10 @@
+---
+applications:
+- name: Leejy-myadmin
+  memory: 512M
+  host: Leejy-myadmin
+  domain: paas-ta.org
+  services:
+  - Leejy-mysql-db
+  instances: 1
+  disk_quota: 512M
